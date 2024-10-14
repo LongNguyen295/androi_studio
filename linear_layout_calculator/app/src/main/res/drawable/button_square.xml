@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Hình vuông không có góc bo -->
+    <corners android:radius="0dp"/> <!-- Góc vuông (không bo tròn) -->
+
+    <!-- Màu nền của Button -->
+    <solid android:color="@color/colorPrimary"/>
+
+    <!-- Viền của Button -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/colorPrimaryDark" />
+</shape>

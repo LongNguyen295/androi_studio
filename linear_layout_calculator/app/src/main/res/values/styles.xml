@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Linear_layout_calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Áp dụng style cho tất cả các Button -->
+        <item name="buttonStyle">@style/Widget.App.Button</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/button_square</item> <!-- Nền hình chữ nhật -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Màu chữ -->
+        <item name="android:padding">10dp</item> <!-- Padding của Button -->
+    </style>
+</resources>
